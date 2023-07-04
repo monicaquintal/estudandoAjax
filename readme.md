@@ -6,4 +6,5 @@
 
 ## Conteúdo
 
-[Aula 01: Introdução ao Ajax.](./aula01.md).
+[Aula 01: Introdução ao Ajax.](./aulas/aula01.md).<br>
+[Aula 02: O que são requisições síncronas e assíncronas.](./aulas/aula02.md).
