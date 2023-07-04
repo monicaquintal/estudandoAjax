@@ -18,3 +18,7 @@
 - o browser é capaz de disparar diversas requisições sem que necessariamente haja um sincronismo entre elas.
 - podem ser feitas várias requisições de forma paralela, e as respostas serão capturadas tão logo quando forem recebidas do servidor.
 - dados podem ser carregados pela página sem que esta seja atualizada (sem refresh). Exemplo: google maps.
+
+---
+
+[Voltar ao início.](https://github.com/monicaquintal/estudandoAjax)

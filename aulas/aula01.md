@@ -28,4 +28,4 @@
 
 ---
 
-[Voltar ao início.](./readme.md)
+[Voltar ao início.](https://github.com/monicaquintal/estudandoAjax)
