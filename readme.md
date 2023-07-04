@@ -9,3 +9,4 @@
 [Aula 01: Introdução ao Ajax.](./aulas/aula01.md)<br>
 [Aula 02: O que são requisições síncronas e assíncronas.](./aulas/aula02.md)<br>
 [Aula 03: Download dos arquivos auxiliares da seção.](./aulas/aula03.md)<br>
+[Aula 04: Requisições síncronas.](./aulas/aula04.md)<br>
