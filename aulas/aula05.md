@@ -19,16 +19,32 @@
 ## Praticando
 
 - trabalhar com arquivos [pagina_1_conteudo](../pages/pagina_1_conteudo.html), [pagina_2_conteudo](../pages/pagina_2_conteudo.html) e [pagina_3_conteudo](../pages/pagina_3_conteudo.html).
+  - não são as páginas em si, apenas seus conteúdos!
 
+- criado o arquivo [requisicoes_assincronas](../pages/requisicoes_assincronas.html).
+  - ctrl c + ctrl v no conteúdo da pagina_1.
+  - excluidos os conteúdos do container (conteúdo principal) e atributo href das tags a, e alterado title.
 
+- criar o objeto XMLHttpRequest:
+  - no head, criar a tag script.
 
+~~~javascript
+function requisitarPagina(url) {
+  let ajax = new XMLHttpRequest();
+  ajax.open('GET', url);
+  ajax.send();
 
+  console.log(ajax);
+}
+~~~
 
+- em cada uma das tags a, adicionar o evento onclick:
 
-
-
-
-
+~~~html
+<a href="#" class="btn btn-primary" onclick="requisitarPagina('pagina_1_conteudo.html')">Página 1</a>
+<a href="#" class="btn btn-primary" onclick="requisitarPagina('pagina_2_conteudo.html')">Página 2</a>
+<a href="#" class="btn btn-primary" onclick="requisitarPagina('pagina_3_conteudo.html')">Página 3</a>
+~~~
 
 ---
 
